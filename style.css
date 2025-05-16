@@ -40,8 +40,8 @@ footer {
 
 .project-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
   margin-top: 1em;
 }
 
@@ -63,4 +63,21 @@ footer {
 .project-card h3 {
   margin-top: 0;
   font-size: 1.2em;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.6em 1.2em;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
 }
